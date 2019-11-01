@@ -57,7 +57,7 @@ export default class Index extends Component {
         <FilmSelect
           list={mockFilmsList}
           onOk={data => {
-            console.log("data", data);
+            // console.log("data", data);
           }}
         ></FilmSelect>
       </View>
